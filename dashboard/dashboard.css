@@ -6,6 +6,7 @@ body {
 }
 
 header {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,7 +23,7 @@ header {
 .user-info {
     display: flex;
     align-items: center;
-    margin-left: 160px;
+    margin-right: 40px;
     /* border: 2px solid; */
     width: 600px;
 }
@@ -45,7 +46,7 @@ header {
     color: white;
     border: none;
     padding: 10px 20px;
-    margin-right: 35px;
+    margin-right: 75px;
     border-radius: 8px;
     cursor: pointer;
     height: 50px;
@@ -134,3 +135,4 @@ strong{
     font-size: 20px;
     font-weight: bolder;
 }
+
