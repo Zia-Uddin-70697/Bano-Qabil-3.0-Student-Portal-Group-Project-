@@ -16,6 +16,7 @@ body {
     background-image: url(./Assets/pic/bg-download.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    
 
 }
 
@@ -24,7 +25,6 @@ header {
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
-    
 }
 
 .logo {
@@ -128,3 +128,30 @@ h1 {
     background-color: #1e4c4a;
     color: aqua;
 }
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .project h3{
+        padding-bottom: 25px;
+        border-radius: 25px;
+        flex-wrap: wrap;
+    }
+    .visit-button{
+        padding-top: 24px;
+    }
+    .members ul li{
+        font-size: 20px;
+    }
+}
+    
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }
